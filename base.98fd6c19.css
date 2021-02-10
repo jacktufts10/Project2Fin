@@ -150,12 +150,16 @@ a:focus {
 	padding-bottom: 3rem;
 }
 
-
+@font-face {
+	font-family: "Trap-Regular";
+	src:url(font/Trap-Regular.otf) format(opentype);
+}
 
 .content__paragraph {
-	font-family: "Trap-Regular";
+	font-family: "Trap-Regular", sans-serif;
 	font-weight: normal;
 	src: url(font/Trap-Regular.otf) format(opentype);
+	text-rendering:geometricPrecision;
 	font-size: 7vw;
 	margin: 0;
 	line-height: 1;
